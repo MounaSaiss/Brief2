@@ -743,10 +743,9 @@ ease;
 .newsletter-card-profil {
   border-radius: 1.5rem;
   padding: 3rem;
-  text-align: center;
+  text-align:justify;
   background-image:url(/public/remove\ baghrond.png);
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
 }
 .newsletter-title-profil {
   font-family: "Orbitron", sans-serif;
@@ -756,7 +755,10 @@ ease;
   margin-left: 30rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f, 0 0 40px #0ff, 0 0 80px #0ff;
   
 }
 .description-profil{
@@ -765,6 +767,7 @@ ease;
   color: #2a0834;
   margin-left: 30rem;
 }
+
 
 
 
@@ -808,6 +811,15 @@ ease;
 .newsletter-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+}
+
+/* .newsletter-content:hover{
+
+
+} */
+
+#present{
+  color: #00f;
 }
 
 /* Footer */
