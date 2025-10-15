@@ -589,13 +589,13 @@ ease;
   margin-top:2rem;
   text-align: center;
 }
-/* style profil */
+/* style profil 1*/
 .newsletter-section-profil {
   padding: 5rem 0;
-  
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+  background:rgb(97, 5, 120);
   opacity: 0.9;
 }
+
 .newsletter-card-profil {
   border-radius: 1.5rem;
   padding: 3rem;
@@ -614,17 +614,46 @@ ease;
   font-size: 2rem;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 20px #00f, 0 0 40px #0ff, 0 0 80px #0ff;
-  
+  text-shadow: 0 0 5px rgb(206, 37, 240), 0 0 10px rgb(195, 48, 218), 0 0 20px rgb(236, 15, 240), 0 0 40px rgb(239, 29, 215), 0 0 80px rgb(247, 28, 214);
 }
 .description-profil{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  color: #2a0834;
+  color: whitesmoke;
   margin-left: 30rem;
 }
-
-
+/* style profil 2*/
+.newsletter-section-profil2 {
+  padding: 5rem 0;
+  background:black;
+  opacity: 0.9;
+}
+.newsletter-card-profil2 {
+  border-radius: 1.5rem;
+  padding: 3rem;
+  text-align:justify;
+  background-image:url(/public/remo1.png);
+  background-repeat: no-repeat;  
+}
+.newsletter-title-profil2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f57e07;
+  margin-left: 30rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px rgb(234, 132, 43), 0 0 10px rgb(216, 142, 51), 0 0 20px rgb(231, 95, 27), 0 0 40px rgb(232, 24, 9), 0 0 80px rgb(236, 17, 17);
+}
+.description-profil2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
+  color:whitesmoke;
+  margin-left: 30rem;
+}
 
 
 .newsletter-input {
