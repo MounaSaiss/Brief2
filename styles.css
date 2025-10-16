@@ -592,8 +592,11 @@ ease;
 /* style profil 1*/
 .newsletter-section-profil {
   padding: 5rem 0;
-  background:rgb(97, 5, 120);
-  opacity: 0.9;
+  /* background:rgb(97, 5, 120);
+  opacity: 0.9; */
+  background-image: url('public/Fioletowe\ tło\ technologii\ _\ Darmowy\ wektor\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .newsletter-card-profil {
@@ -625,8 +628,11 @@ ease;
 /* style profil 2*/
 .newsletter-section-profil2 {
   padding: 5rem 0;
-  background:black;
-  opacity: 0.9;
+  /* background:black;
+  opacity: 0.9; */
+  background-image: url(public/Gradiente\ de\ fundo\ da\ ligação\ à\ rede\ _\ Vetor\ Grátis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .newsletter-card-profil2 {
   border-radius: 1.5rem;
