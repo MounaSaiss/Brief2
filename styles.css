@@ -712,25 +712,6 @@ ease;
   padding: 4rem 0 2rem;
 }
 
-/* .footer-column-first{
- float: left;
-  height: 470px;
-  width: 23%;
-  
-}
-.footer-column-second{
- float: left;
-  height: 470px;
-  width: 23%;
-  margin-left: 8rem;
-}
-.footer-column-three{
- float: left;
-  height: 470px;
-  width: 300%;
-  margin-left: 27rem;
-} */
-
 .footer-content {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
