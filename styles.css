@@ -96,14 +96,13 @@ body {
   width: 100%;
 }
 
-.nav-link-effect{
-    color: #a0a0a0;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    transition: color 0.3s 
-ease;
-    position: relative;
+.nav-link-effect {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  position: relative;
 }
 
 /* Hero Section */
@@ -123,14 +122,14 @@ ease;
   background-size: cover;
   background-position: center;
   filter: brightness(0.3);
-  
+
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background-image:url(/public/esport-rookie-tournament-with-cyan-neon-lights.jpg);
-  opacity:0.2;
+  background-image: url(/public/esport-rookie-tournament-with-cyan-neon-lights.jpg);
+  opacity: 0.2;
 }
 
 .hero-container {
@@ -141,7 +140,7 @@ ease;
 .hero-content {
   max-width: 800px;
   padding: 4rem 0;
-  
+
 }
 
 .hero-badge {
@@ -167,10 +166,12 @@ ease;
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
@@ -517,7 +518,7 @@ ease;
 .newsletter-section {
   padding: 8rem 0;
   background: rgba(15, 15, 25, 0.5);
-  background-image:url(/public/esport-tournament-championship-with-neon-blue-ligh.jpg);
+  background-image: url(/public/esport-tournament-championship-with-neon-blue-ligh.jpg);
   opacity: 0.9;
 }
 
@@ -527,8 +528,17 @@ ease;
   border-radius: 1.5rem;
   padding: 3rem;
   text-align: center;
-  
+
 }
+
+/* .newsletter-card {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+  
+} */
 
 .newsletter-title {
   font-family: "Orbitron", sans-serif;
@@ -554,14 +564,16 @@ ease;
   max-width: 900px;
   margin: 0 auto;
 }
+
 /* style contact  */
 
 .newsletter-form-contact {
   display: flex;
   gap: 1rem;
-  max-width:fit-content;
+  max-width: fit-content;
   margin: 0 auto;
 }
+
 .newsletter-input-contact {
   flex: 1;
   padding: 1rem 5rem;
@@ -574,21 +586,24 @@ ease;
   transition: all 0.3s ease;
   resize: none;
 }
+
 .newsletter-section-contact {
   padding: 4rem 0;
   background: rgba(15, 15, 25, 0.5);
-  background-image:url(/public/esport-tournament-championship-with-neon-blue-ligh.jpg);
+  background-image: url(/public/esport-tournament-championship-with-neon-blue-ligh.jpg);
   opacity: 0.9;
 }
+
 .newsletter-title-contacte {
   font-family: "Orbitron", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 2rem;
-  margin-top:2rem;
+  margin-top: 2rem;
   text-align: center;
 }
+
 /* style profil 1*/
 .newsletter-section-profil {
   padding: 5rem 0;
@@ -602,10 +617,11 @@ ease;
 .newsletter-card-profil {
   border-radius: 1.5rem;
   padding: 3rem;
-  text-align:justify;
-  background-image:url(/public/remove\ baghrond.png);
-  background-repeat: no-repeat;  
+  text-align: justify;
+  background-image: url(/public/remove\ baghrond.png);
+  background-repeat: no-repeat;
 }
+
 .newsletter-title-profil {
   font-family: "Orbitron", sans-serif;
   font-size: 2rem;
@@ -619,12 +635,14 @@ ease;
   text-align: center;
   text-shadow: 0 0 5px rgb(206, 37, 240), 0 0 10px rgb(195, 48, 218), 0 0 20px rgb(236, 15, 240), 0 0 40px rgb(239, 29, 215), 0 0 80px rgb(247, 28, 214);
 }
-.description-profil{
+
+.description-profil {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
   color: whitesmoke;
   margin-left: 30rem;
 }
+
 /* style profil 2*/
 .newsletter-section-profil2 {
   padding: 5rem 0;
@@ -634,13 +652,15 @@ ease;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .newsletter-card-profil2 {
   border-radius: 1.5rem;
   padding: 3rem;
-  text-align:justify;
-  background-image:url(/public/remo1.png);
-  background-repeat: no-repeat;  
+  text-align: justify;
+  background-image: url(/public/remo1.png);
+  background-repeat: no-repeat;
 }
+
 .newsletter-title-profil2 {
   font-family: "Orbitron", sans-serif;
   font-size: 2rem;
@@ -654,10 +674,11 @@ ease;
   text-align: center;
   text-shadow: 0 0 5px rgb(234, 132, 43), 0 0 10px rgb(216, 142, 51), 0 0 20px rgb(231, 95, 27), 0 0 40px rgb(232, 24, 9), 0 0 80px rgb(236, 17, 17);
 }
-.description-profil2{
+
+.description-profil2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
-  color:whitesmoke;
+  color: whitesmoke;
   margin-left: 30rem;
 }
 
@@ -705,10 +726,82 @@ ease;
 }
 
 
-#present{
+#present {
   transform: translateY(-5px);
   text-shadow: 2px 2px 5px rgba(13, 98, 246, 0.6);
   color: rgb(130, 130, 220);
+}
+
+/* .card3{
+  background-color: #e0e0e0;
+  width: 10rem;
+  height:20rem;
+  margin-right: ;
+} */
+ 
+.container-joueure {
+  max-width: 1150px;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 15px;
+  padding: 0 1.5rem;
+  background: rgba(15, 15, 25, 0.8);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card-joueure {
+  width: 200px;
+  height: 250px;
+  border-radius: 8px;
+  border: 1px solid #04060a;
+}
+
+.image-joueure {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  
+}
+
+
+
+
+.image-joueure img {
+  /* margin-right: 10px; */
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: 0.6s;
+
+}
+.image-joueure img:hover {
+  transform: scale(1.2);
+}
+
+.text-joueure h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #e0e0e0;
+
+}
+
+.text-joueure p {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #a0a0a0;
+}
+
+/* joueur saction */
+.card-joueure {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* Footer */
