@@ -118,7 +118,7 @@ body {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("/placeholder.svg?height=1080&width=1920");
+  background-image: url("placeholder.svg?height=1080&width=1920");
   background-size: cover;
   background-position: center;
   filter: brightness(0.3);
@@ -128,7 +128,7 @@ body {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background-image: url(/public/esport-rookie-tournament-with-cyan-neon-lights.jpg);
+  background-image: url(public/esport-rookie-tournament-with-cyan-neon-lights.jpg);
   opacity: 0.2;
 }
 
@@ -518,7 +518,7 @@ body {
 .newsletter-section {
   padding: 8rem 0;
   background: rgba(15, 15, 25, 0.5);
-  background-image: url(/public/esport-tournament-championship-with-neon-blue-ligh.jpg);
+  background-image: url(public/esport-tournament-championship-with-neon-blue-ligh.jpg);
   opacity: 0.9;
 }
 
@@ -590,7 +590,7 @@ body {
 .newsletter-section-contact {
   padding: 4rem 0;
   background: rgba(15, 15, 25, 0.5);
-  background-image: url(/public/esport-tournament-championship-with-neon-blue-ligh.jpg);
+  background-image: url(public/esport-tournament-championship-with-neon-blue-ligh.jpg);
   opacity: 0.9;
 }
 
@@ -609,7 +609,7 @@ body {
   padding: 5rem 0;
   /* background:rgb(97, 5, 120);
   opacity: 0.9; */
-  background-image: url('public/Fioletowe\ tło\ technologii\ _\ Darmowy\ wektor\ \(1\).jpg');
+  background-image: url(public/Fioletowe\ tło\ technologii\ _\ Darmowy\ wektor\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -618,7 +618,7 @@ body {
   border-radius: 1.5rem;
   padding: 3rem;
   text-align: justify;
-  background-image: url(/public/remove\ baghrond.png);
+  background-image: url(public/remove\ baghrond.png);
   background-repeat: no-repeat;
 }
 
@@ -657,7 +657,7 @@ body {
   border-radius: 1.5rem;
   padding: 3rem;
   text-align: justify;
-  background-image: url(/public/remo1.png);
+  background-image: url(public/remo1.png);
   background-repeat: no-repeat;
 }
 
